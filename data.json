@@ -8,7 +8,7 @@
         "paper_link": "https://arxiv.org/abs/2411.00348",
         "code_link": "",
         "page_link": "https://huggingface.co/spaces/TrustSafeAI/Attention-Tracker",
-        "abstract": "LLMs excel across domains but remain vulnerable to prompt injection attacks, where malicious prompts redirect attention from original instructions. We introduce Attention Tracker, a training-free detection method that monitors attention patterns to identify such attacks without requiring additional LLM inference."  
+        "abstract": "LLM-integrated application (ex. LLM agent) excel across domains but remain vulnerable to prompt injection attacks. We introduce Attention Tracker, a training-free detection method that monitors attention patterns to identify such attacks without requiring additional LLM inference."  
       },
       {
         "title": "VICtoR: Learning Hierarchical Vision-Instruction Correlation Rewards for Long-horizon Manipulation",
@@ -34,7 +34,7 @@
         "title": "Customizable Routing with Learnings from Past Recommendations",
         "image": "images/map.png",
         "authors": "<strong>Kuo-Han Hung</strong>, Chiqun Zhang, Dragomir Yankov",
-        "conference": "SIGSPATIAL 2024",
+        "conference": "ACM SIGSPATIAL 2024",
         "paper_link": "",
         "code_link": "",
         "page_link": "",
