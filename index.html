@@ -13,7 +13,7 @@
   </head>
 
   <body>
-    <table style="width:100%;max-width:800px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+    <table style="width:100%;max-width:900px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
       <tr style="padding:0px">
         <td style="padding:0px">
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
@@ -48,74 +48,7 @@
               </td>
             </tr>
           </tbody></table>
-          <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
-            <tr>
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <div class="one">
-                  <img src='images/victor.png' width="170">
-                </div>
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                <a href="https://arxiv.org/abs/2405.16545">
-                  <span class="papertitle">VICtoR: Learning Hierarchical Vision-Instruction Correlation Rewards for Long-horizon Manipulation</span>
-                </a>
-                <br>
-                <strong>Kuo-Han Hung*</strong>, Pang-Chi Lo*, Jia-Fong Yeh*, Han-Yuan Hsu, Yi-Ting Chen, Winston H. Hsu
-                <br>
-                <em>ICML 2024 workshop: Aligning Reinforcement Learning Experimentalists and Theorists</em>
-                <br>
-                <a href="https://arxiv.org/abs/2405.16545">paper</a>
-                <p></p>
-                <p>
-                  Existing Vision-Instruction Correlation (VIC) reward models struggle with training for long-horizon tasks. We propose VICtoR, a new reward model for long-horizon robotic reinforcement learning that assigns rewards hierarchically.
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <div class="one">
-                  <img src='images/aed.png' width="140">
-                </div>
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                <a href="https://arxiv.org/abs/2402.03860">
-                  <span class="papertitle">AED: Adaptable Error Detection for Few-shot Imitation Policy</span>
-                </a>
-                <br>
-                Jia-Fong Yeh, <strong>Kuo-Han Hung*</strong>, Pang-Chi Lo*, Chi-Ming Chung, Tsung-Han Wu, Hung-Ting Su, Yi-Ting Chen, Winston H Hsu
-                <br>
-                <em>Preprint</em>
-                <br>
-                <a href="https://arxiv.org/abs/2402.03860">paper</a>
-                <p></p>
-                <p>
-                  The novel adaptable error detection (AED) problem is formulated for monitoring few-shot imitation policies' behaviors, and we propose PrObe to address the challenging problem by learning from the policy's feature representations.
-                </p>
-              </td>
-            </tr>
-            <tr>
-              <td style="padding:20px;width:25%;vertical-align:middle">
-                <div class="one">
-                  <img src='images/conv.png' width="170">
-                </div>
-              </td>
-              <td style="padding:20px;width:75%;vertical-align:middle">
-                <a href="https://arxiv.org/abs/2211.09401">
-                  <span class="papertitle">Open-domain conversational question answering with historical answers</span>
-                </a>
-                <br>
-                Hung-Chieh Fang*, <strong>Kuo-Han Hung*</strong>, Chao-Wei Huang, Yun-Nung Chen
-                <br>
-                <em>AACL 2022</em>
-                <br>
-                <a href="https://arxiv.org/abs/2211.09401">paper</a> / <a href="https://github.com/MiuLab/ConvADR-QA">code</a>
-                <p></p>
-                <p>
-                  Open-domain conversational question answering combines passage retrieval and answering, with ConvADR-QA leveraging historical answers to improve both tasks. Our model outperforms baselines on OR-QuAC by reducing noise through a teacher-student framework.
-                </p>
-              </td>
-            </tr>
-          </tbody></table>
+          <table id="paper-table" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
           <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20"><tbody>
             <tr>
               <td>
@@ -173,5 +106,51 @@
       </tr>
     </table>
   </body>
+  <script>
+    // Load JSON data and render HTML
+    fetch('data.json')
+        .then(response => response.json())
+        .then(data => {
+            const table = document.getElementById('paper-table');
+            data.paper_list.forEach(paper => {
+                // Create table row
+                const row = document.createElement('tr');
+                
+                // Build links conditionally
+                let links = '';
+                if (paper.paper_link) links += `<a href="${paper.paper_link}">paper</a>`;
+                if (paper.page_link) links += `${links ? ' / ' : ''}<a href="${paper.page_link}">page</a>`;
+                if (paper.code_link) links += `${links ? ' / ' : ''}<a href="${paper.code_link}">code</a>`;
+
+                // Populate row with data
+                row.innerHTML = `
+                  <tr>  
+                    <td style="padding:20px;width:30%;vertical-align:middle">
+                        <div class="one">
+                            <img src="${paper.image}" width="240">
+                        </div>
+                    </td>
+                    <td style="padding:20px;width:75%;vertical-align:middle">
+                        <a href="${paper.paper_link}">
+                            <span class="papertitle">${paper.title}</span>
+                        </a>
+                        <br>
+                        ${paper.authors}
+                        <br>
+                        <em><strong>${paper.conference}</strong></em>
+                        <br>
+                        ${links}
+                        <p></p>
+                        <p>${paper.abstract}</p>
+                    </td>
+                  </tr> 
+                `;
+                
+                // Append row to the table
+                table.appendChild(row);
+            });
+        })
+        .catch(error => console.error('Error loading JSON:', error));
+</script>
 </html>
 
