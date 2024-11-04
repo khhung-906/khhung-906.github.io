@@ -24,7 +24,7 @@
         "title": "AED: Adaptable Error Detection for Few-shot Imitation Policy",
         "image": "images/aed.png",
         "authors": "Jia-Fong Yeh, <strong>Kuo-Han Hung*</strong>, Pang-Chi Lo*, Chi-Ming Chung, Tsung-Han Wu, Hung-Ting Su, Yi-Ting Chen, Winston H Hsu",
-        "conference": "NeurIPS 2024",
+        "conference": "Conference on Neural Information Processing System (NeurIPS) 2024",
         "paper_link": "https://arxiv.org/abs/2402.03860",
         "code_link": "",
         "page_link": "https://aed-neurips.github.io/#",
@@ -44,7 +44,7 @@
         "title": "Open-domain conversational question answering with historical answers",
         "image": "images/conv.png",
         "authors": "Hung-Chieh Fang*, <strong>Kuo-Han Hung*</strong>, Chao-Wei Huang, Yun-Nung Chen",
-        "conference": "AACL 2022",
+        "conference": "Asian Chapter of the Association for Computational Linguistics (AACL) 2022",
         "paper_link": "https://arxiv.org/abs/2211.09401",
         "code_link": "https://github.com/MiuLab/ConvADR-QA",
         "abstract": "Open-domain conversational question answering combines passage retrieval and answering, with ConvADR-QA leveraging historical answers to improve both tasks. Our model outperforms baselines on OR-QuAC by reducing noise through a teacher-student framework." 
