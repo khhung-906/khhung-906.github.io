@@ -68,6 +68,13 @@
     ]
     ,"project_list": [
       {
+        "title": "Vulnerabilities in VLM-Powered Policies",
+        "source": "Course Project of Security and Privacy of ML, Spring 2024",
+        "image": "images/vul_policy.png",
+        "slide_link": "https://docs.google.com/presentation/d/1uE96UYIB6Sy6T1XGx58W7zIbceSfLbVzbuZMOTgJFFs/edit?usp=sharing",
+        "abstract": "Developed a text and image-based adversarial attack method to manipulate embodied AI behavior, achieving a 40% increase in targeted attack success on VLM-powered policy networks." 
+      },
+      {
         "title": "Zero-shot Text Behavior Retrieval",
         "source": "Course Project of Reinforcement Learning, Fall 2023",
         "image": "images/text_br.png",

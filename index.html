@@ -152,8 +152,7 @@
                 // Build links conditionally
                 let links = '';
                 if (project.paper_link) links += `<a href="${project.paper_link}">paper</a>`;
-                if (project.page_link) links += `${links ? ' / ' : ''}<a href="${project.page_link}">website</a>`;
-                if (project.code_link) links += `${links ? ' / ' : ''}<a href="${project.code_link}">code</a>`;
+                if (project.slide_link) links += `<a href="${project.slide_link}">slide</a>`;
 
                 // Populate row with data
                 row.innerHTML = `
