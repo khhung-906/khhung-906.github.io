@@ -69,7 +69,7 @@
     ,"project_list": [
       {
         "title": "Zero-shot Text Behavior Retrieval",
-        "source": "Course Project of Reinforcement Learning, Spring 2023",
+        "source": "Course Project of Reinforcement Learning, Fall 2023",
         "image": "images/text_br.png",
         "paper_link": "data/Text_Behavior_Retrieval.pdf",
         "abstract": "We propose a method for retrieving task-relevant data for imitation learning without requiring expert demonstrations. Our approach leverages text descriptions in combination with a vision-language model to enable zero-shot behavior retrieval." 
