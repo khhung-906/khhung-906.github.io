@@ -4,7 +4,7 @@
         "title": "Attention Tracker: Detecting Prompt Injection Attacks in LLMs",
         "image": "images/attention.png",
         "authors": "<strong>Kuo-Han Hung</strong>, Ching-Yun Ko, Ambrish Rawat, I-Hsin Chung, Winston H. Hsu, Pin-Yu Chen",
-        "conference": "under review",
+        "conference": "Under Review",
         "paper_link": "https://arxiv.org/abs/2411.00348",
         "code_link": "",
         "page_link": "https://huggingface.co/spaces/TrustSafeAI/Attention-Tracker",
@@ -35,7 +35,7 @@
         "image": "images/map.png",
         "authors": "<strong>Kuo-Han Hung</strong>, Chiqun Zhang, Dragomir Yankov",
         "conference": "ACM SIGSPATIAL 2024",
-        "paper_link": "",
+        "paper_link": "data/Customizable_Routing.pdf",
         "code_link": "",
         "page_link": "",
         "abstract": "Finding routes is essential for map services, yet most methods overlook user-specific preferences. We introduce a novel approach that uses historical route data to filter irrelevant paths and incorporates query semantics, like “route from Seattle to Redmond with fewer traffic lights,” for optimized, preference-aware routing."
@@ -49,6 +49,30 @@
         "code_link": "https://github.com/MiuLab/ConvADR-QA",
         "abstract": "Open-domain conversational question answering combines passage retrieval and answering, with ConvADR-QA leveraging historical answers to improve both tasks. Our model outperforms baselines on OR-QuAC by reducing noise through a teacher-student framework." 
       }
-
+    ]
+    ,"exp_list": [
+      {
+        "title": "Research Intern, IBM research",
+        "image": "images/ibm_research.png",
+        "date": "Jun. 2024 - Sep. 2024",
+        "advisor": "Advised by <a href='https://sites.google.com/site/pinyuchenpage/'>Dr. Pin-Yu Chen</a>",
+        "intro": "Research in trustworthy AI."
+      },
+      {
+        "title": "Applied Scientist Intern, Microsoft",
+        "image": "images/microsoft.png",
+        "date": "Jul. 2023 - Jun. 2024",
+        "advisor": "Advised by <a href='https://chiqunz.github.io/'>Dr. Chiqun Zhang</a>",
+        "intro": "Integrated Bing Maps services and context-aware map search system with Microsoft Copilot for complicated map quires; Developed a new path finding algorithm that learns from historical data to achieve over a 10x speedup."
+      }
+    ]
+    ,"project_list": [
+      {
+        "title": "Zero-shot Text Behavior Retrieval",
+        "source": "Course Project of Reinforcement Learning, Spring 2023",
+        "image": "images/text_br.png",
+        "paper_link": "data/Text_Behavior_Retrieval.pdf",
+        "abstract": "We propose a method for retrieving task-relevant data for imitation learning without requiring expert demonstrations. Our approach leverages text descriptions in combination with a vision-language model to enable zero-shot behavior retrieval." 
+      }
     ]
 }
