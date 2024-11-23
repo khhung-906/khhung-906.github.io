@@ -35,7 +35,7 @@
         "image": "images/map.png",
         "authors": "<strong>Kuo-Han Hung</strong>, Chiqun Zhang, Dragomir Yankov",
         "conference": "ACM SIGSPATIAL 2024",
-        "paper_link": "data/Customizable_Routing.pdf",
+        "paper_link": "https://dl.acm.org/doi/10.1145/3678717.3691327",
         "code_link": "",
         "page_link": "",
         "abstract": "Finding routes is essential for map services, yet most methods overlook user-specific preferences. We introduce a novel approach that uses historical route data to filter irrelevant paths and incorporates query semantics, like “route from Seattle to Redmond with fewer traffic lights,” for optimized, preference-aware routing."
