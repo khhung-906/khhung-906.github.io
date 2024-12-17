@@ -4,7 +4,7 @@
         "title": "Attention Tracker: Detecting Prompt Injection Attacks in LLMs",
         "image": "images/attention.png",
         "authors": "<strong>Kuo-Han Hung</strong>, Ching-Yun Ko, Ambrish Rawat, I-Hsin Chung, Winston H. Hsu, Pin-Yu Chen",
-        "conference": "Under review @ NAACL 25.",
+        "conference": "Under review @ NAACL 25",
         "paper_link": "https://arxiv.org/abs/2411.00348",
         "code_link": "",
         "page_link": "https://huggingface.co/spaces/TrustSafeAI/Attention-Tracker",
