@@ -44,7 +44,16 @@
               </td>
             </tr>
           </tbody></table>
+          
+          <table style="margin-top: -20px;width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
+              <tr><td style="padding:20px;width:100%;vertical-align:middle">
+                <h2>News</h2>
+                <p></p>
+              </td></tr>
+          </tbody></table>
 
+          <table id="news-table" style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-top: -20px;margin-right:auto;margin-left:auto;"><tbody>
+          
           <table style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;"><tbody>
               <tr><td style="padding:20px;width:100%;vertical-align:middle">
                 <h2>Research</h2>
@@ -103,10 +112,29 @@
   </body>
   <script>
     // Load JSON data and render HTML
-    fetch('data.json')
+    fetch('_data.json')
         .then(response => response.json())
         .then(data => {
-            const table = document.getElementById('paper-table');
+            const news_table = document.getElementById('news-table');
+            data.news_list.forEach(news => {
+                // Create table row
+                const row = document.createElement('tr');
+                
+                
+                // Populate row with data
+                row.innerHTML = `
+                  <tr>  
+                    <td style="padding-left: 20px; width:70%; vertical-align:middle">
+                      <strong><span class="newsdate">- [${news.date}] </span></strong>  ${news.news}
+                    </td>
+                  </tr>
+                `;
+                
+                // Append row to the table
+                news_table.appendChild(row);
+            });
+            
+            const paper_table = document.getElementById('paper-table');
             data.paper_list.forEach(paper => {
                 // Create table row
                 const row = document.createElement('tr');
@@ -142,7 +170,7 @@
                 `;
                 
                 // Append row to the table
-                table.appendChild(row);
+                paper_table.appendChild(row);
             });
             
             const project_table = document.getElementById('project-table');
@@ -195,7 +223,7 @@
                         </div>
                     </td>
                     <td style="padding:20px;width:70%;vertical-align:middle">
-                        <papertitle>${exp.title}</papertitle>
+                        <strong><papertitle>${exp.title}</papertitle></strong>
                       <br>
                       ${exp.date}
                       <br>
