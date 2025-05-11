@@ -238,3 +238,169 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+
+    /* Adjust main content padding */
+    main {
+        padding: 10px;
+    }
+
+    /* Make profile section stack vertically */
+    .profile {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    /* Adjust profile image size */
+    .profile-image img {
+        width: 120px;
+        height: 120px;
+        margin-bottom: 15px;
+    }
+
+    /* Make research and experience items stack vertically */
+    .research-item,
+    .experience-item {
+        flex-direction: column;
+    }
+
+    /* Adjust image sizes in research and experience items */
+    .research-item img,
+    .experience-item img {
+        width: 700px !important;
+        height: auto;
+        border-radius: 8px 8px 0 0;
+    }
+
+    /* Adjust padding and width for better viewing */
+    .research-details,
+    .experience-details {
+        padding: 10px;
+    }
+
+    /* Adjust paper title size */
+    .paper-title {
+        font-size: 1em;
+    }
+
+    /* Adjust name size */
+    .name {
+        font-size: 24px;
+    }
+
+    /* Adjust h2 size */
+    h2 {
+        font-size: 18px;
+    }
+
+    /* Adjust base font size */
+    body,
+    td,
+    th,
+    tr,
+    p,
+    a {
+        font-size: 13px;
+    }
+
+    /* Make tables more responsive */
+    table {
+        width: 100% !important;
+    }
+
+    /* Adjust cell padding */
+    td {
+        padding: 10px !important;
+    }
+
+    /* Make images in experience section stack above text */
+    #experience-table tr td {
+        display: block;
+        width: 100% !important;
+        text-align: center;
+    }
+
+    #experience-table tr td:first-child {
+        margin-bottom: 10px;
+    }
+
+    /* Adjust image size in experience section */
+    #experience-table .one {
+        width: 120px;
+        height: 120px;
+        margin: 0 auto;
+    }
+
+    #experience-table .one img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Adjust paper table layout */
+    #paper-table tr td {
+        display: block;
+        width: 100% !important;
+        text-align: center;
+    }
+
+    #paper-table tr td:first-child {
+        margin-bottom: 10px;
+    }
+
+    #paper-table .one {
+        width: 120px;
+        height: 120px;
+        margin: 0 auto;
+    }
+
+    #paper-table .one img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Adjust project table layout */
+    #project-table tr td {
+        display: block;
+        width: 100% !important;
+        text-align: center;
+    }
+
+    #project-table tr td:first-child {
+        margin-bottom: 10px;
+    }
+
+    #project-table .one {
+        width: 120px;
+        height: 120px;
+        margin: 0 auto;
+    }
+
+    #project-table .one img {
+        width: 100%;
+        height: auto;
+    }
+
+    /* Adjust teaching table layout */
+    #teaching-table tr td {
+        display: block;
+        width: 100% !important;
+        text-align: center;
+    }
+
+    #teaching-table tr td:first-child {
+        margin-bottom: 10px;
+    }
+
+    #teaching-table .one {
+        width: 120px;
+        height: 120px;
+        margin: 0 auto;
+    }
+
+    #teaching-table .one img {
+        width: 100%;
+        height: auto;
+    }
+}
