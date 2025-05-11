@@ -102,18 +102,22 @@
   ],
   "teaching_list": [
     {
-      "title": "Teaching Assistant, Introduction to Computer Science",
+      "school": "National Taiwan University",
       "image": "images/NTU.png",
-      "course": "CSIE1000 Introduction to Computer Science",
-      "course_link": "https://winstonhsu.info/2024f-comp-intro/",
-      "semester": "Fall 2024"
-    },
-    {
-      "title": "Teaching Assistant, Machine Learning",
-      "image": "images/NTU.png",
-      "course": "CSIE5043: Machine Learning",
-      "course_link": "https://www.csie.ntu.edu.tw/~htlin/course/ml23spring/",
-      "semester": "Spring 2023"
+      "courses": [
+        {
+          "title": "Teaching Assistant",
+          "course": "CSIE1000 Introduction to Computer Science",
+          "course_link": "https://winstonhsu.info/2024f-comp-intro/",
+          "semester": "Fall 2024"
+        },
+        {
+          "title": "Teaching Assistant",
+          "course": "CSIE5043: Machine Learning",
+          "course_link": "https://www.csie.ntu.edu.tw/~htlin/course/ml23spring/",
+          "semester": "Spring 2023"
+        }
+      ]
     }
   ]
 }

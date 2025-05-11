@@ -134,20 +134,7 @@
                           <table id="teaching-table"
                             style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
                             <tbody>
-                              <tr>
-                                <td style="padding:20px;width:30%;vertical-align:middle">
-                                  <div class="one">
-                                    <img src="images/NTU.png" width="160">
-                                  </div>
-                                </td>
-                                <td style="padding:20px;width:70%;vertical-align:middle">
-                                  <p>Teaching Assistant, <a href="https://winstonhsu.info/2024f-comp-intro/">CSIE1000
-                                      Introduction to Computer Science</a>, Fall 2024</p>
-                                  <p>Teaching Assistant, <a
-                                      href="https://www.csie.ntu.edu.tw/~htlin/course/ml23spring/">CSIE5043: Machine
-                                      Learning</a>, Spring 2023</p>
-                                </td>
-                              </tr>
+                              
                             </tbody>
                           </table>
 
@@ -298,24 +285,28 @@
       });
 
       const teaching_table = document.getElementById('teaching-table');
-      data.teaching_list.forEach(teaching => {
-        // Create table row
+      data.teaching_list.forEach(school => {
+        // Create table row for school
         const row = document.createElement('tr');
+
+        // Create courses HTML
+        const coursesHtml = school.courses.map(course => `
+          <p>
+            <span class="papertitle">${course.title}</span>, <a href="${course.course_link}">${course.course}</a>, ${course.semester}
+          </p>
+        `).join('');
 
         // Populate row with data
         row.innerHTML = `
                   <tr>  
                     <td style="padding:20px;width:28%;vertical-align:middle">
                         <div class="one">
-                            <img src="${teaching.image}" width="190">
+                            <img src="${school.image}" width="160">
                         </div>
                     </td>
                     <td style="padding:20px;width:72%;vertical-align:middle">
-                        <span class="papertitle">${teaching.title}</span>
-                        <br>
-                        <a href="${teaching.course_link}">${teaching.course}</a>
-                        <br>
-                        ${teaching.semester}
+                        <strong>${school.school}</strong>
+                        ${coursesHtml}
                     </td>
                   </tr> 
                 `;

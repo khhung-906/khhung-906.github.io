@@ -183,10 +183,15 @@ span.highlight {
         max-width: 400px;
     }
 
-    #experience-table .one img,
+    #experience-table .one img {
+        width: 100%;
+        height: auto;
+        max-width: 200px;
+    }
+
     #teaching-table .one img {
         width: 100%;
         height: auto;
-        max-width: 250px;
+        max-width: 180px;
     }
 }
