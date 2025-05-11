@@ -21,7 +21,7 @@
     {
       "title": "Attention Tracker: Detecting Prompt Injection Attacks in LLMs",
       "image": "images/attention.png",
-      "authors": "<strong>Kuo-Han Hung</strong>, Ching-Yun Ko, Ambrish Rawat, I-Hsin Chung, Winston H. Hsu, Pin-Yu Chen",
+      "authors": "<strong>Kuo-Han Hung</strong>, Ching-Yun Ko, Ambrish Rawat, I-Hsin Chung, Winston Hsu, Pin-Yu Chen",
       "conference": "Annual Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics (NAACL) 2025",
       "paper_link": "https://arxiv.org/abs/2411.00348",
       "code_link": "https://github.com/khhung-906/Attention-Tracker",
@@ -31,7 +31,7 @@
     {
       "title": "VICtoR: Learning Hierarchical Vision-Instruction Correlation Rewards for Long-horizon Manipulation",
       "image": "images/victor.png",
-      "authors": "<strong>Kuo-Han Hung*</strong>, Pang-Chi Lo*, Jia-Fong Yeh*, Han-Yuan Hsu, Yi-Ting Chen, Winston H. Hsu",
+      "authors": "<strong>Kuo-Han Hung*</strong>, Pang-Chi Lo*, Jia-Fong Yeh*, Han-Yuan Hsu, Yi-Ting Chen, Winston Hsu",
       "conference": "International Conference on Learning Representations (ICLR) 2025",
       "paper_link": "https://arxiv.org/abs/2405.16545",
       "code_link": "",
@@ -41,7 +41,7 @@
     {
       "title": "AED: Adaptable Error Detection for Few-shot Imitation Policy",
       "image": "images/aed.png",
-      "authors": "Jia-Fong Yeh, <strong>Kuo-Han Hung*</strong>, Pang-Chi Lo*, Chi-Ming Chung, Tsung-Han Wu, Hung-Ting Su, Yi-Ting Chen, Winston H Hsu",
+      "authors": "Jia-Fong Yeh, <strong>Kuo-Han Hung*</strong>, Pang-Chi Lo*, Chi-Ming Chung, Tsung-Han Wu, Hung-Ting Su, Yi-Ting Chen, Winston Hsu",
       "conference": "Conference on Neural Information Processing System (NeurIPS) 2024",
       "paper_link": "https://arxiv.org/abs/2402.03860",
       "code_link": "",
