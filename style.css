@@ -62,6 +62,17 @@
     unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+/* Base styles */
+body {
+    font-family: 'Lato', Verdana, Helvetica, sans-serif;
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+}
+
 a {
     color: #1772d0;
     text-decoration: none;
@@ -73,41 +84,24 @@ a:hover {
     text-decoration: none;
 }
 
-body,
-td,
-th,
-tr,
-p,
-a {
-    font-family: 'Lato', Verdana, Helvetica, sans-serif;
-    font-size: 14px;
-}
-
-strong {
-    font-family: 'Lato', Verdana, Helvetica, sans-serif;
-    font-size: 14px;
-}
-
+/* Typography */
 h2 {
     margin: 0;
     font-weight: normal;
-    font-family: 'Lato', Verdana, Helvetica, sans-serif;
     font-size: 20px;
 }
 
 .papertitle {
-    font-family: 'Lato', Verdana, Helvetica, sans-serif;
-    font-size: 14px;
     font-weight: 700;
 }
 
 .name {
     padding-top: 20px;
     margin: 0;
-    font-family: 'Lato', Verdana, Helvetica, sans-serif;
     font-size: 28px;
 }
 
+/* Image containers */
 .one {
     width: 160px;
     height: 160px;
@@ -119,288 +113,80 @@ h2 {
     height: 160px;
     position: absolute;
     transition: opacity .2s ease-in-out;
-    -moz-transition: opacity .2s ease-in-out;
-    -webkit-transition: opacity .2s ease-in-out;
 }
 
 .fade {
     transition: opacity .2s ease-in-out;
-    -moz-transition: opacity .2s ease-in-out;
-    -webkit-transition: opacity .2s ease-in-out;
 }
 
 span.highlight {
     background-color: #ffffd0;
 }
 
-/* Global Styles */
-body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
-    margin: 0;
-    padding: 0;
-    background-color: white;
-    color: black;
-}
-
-header {
-    background: #333;
-    color: #fff;
-    padding: 20px;
-    text-align: center;
-}
-
-header h1 {
-    margin: 0;
-    font-size: 1.6em;
-}
-
-header p {
-    margin: 10px 0;
-}
-
-.contact-links a {
-    color: #fff;
-    text-decoration: none;
-    margin: 0 10px;
-}
-
-.contact-links a:hover {
-    text-decoration: underline;
-}
-
-main {
-    padding: 20px;
-}
-
-.profile {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-bottom: 20px;
-}
-
-.profile-info {
-    flex: 1;
-}
-
-.profile-image img {
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-}
-
-.research,
-.experience {
-    margin-bottom: 20px;
-}
-
-.research-item,
-.experience-item {
-    display: flex;
-    margin-bottom: 20px;
-    border: 1px solid #ddd;
-    border-radius: 8px;
-    background: #fff;
-}
-
-.research-item img,
-.experience-item img {
-    width: 150px;
-    height: 150px;
-    object-fit: cover;
-    border-radius: 8px 0 0 8px;
-}
-
-.research-details,
-.experience-details {
-    padding: 15px;
-    flex: 1;
-}
-
-.paper-title {
-    font-size: 1.1em;
-    color: #007bff;
-    text-decoration: none;
-}
-
-.paper-title:hover {
-    text-decoration: underline;
-}
-
-footer {
-    background: #333;
-    color: #fff;
-    text-align: center;
-    padding: 10px;
-    position: absolute;
-    width: 100%;
-    bottom: 0;
-}
-
 /* Responsive Design */
 @media screen and (max-width: 768px) {
 
-    /* Adjust main content padding */
-    main {
-        padding: 10px;
+    /* Base adjustments */
+    body {
+        font-size: 13px;
     }
 
-    /* Make profile section stack vertically */
-    .profile {
-        flex-direction: column;
-        text-align: center;
-    }
-
-    /* Adjust profile image size */
-    .profile-image img {
-        width: 120px;
-        height: 120px;
-        margin-bottom: 15px;
-    }
-
-    /* Make research and experience items stack vertically */
-    .research-item,
-    .experience-item {
-        flex-direction: column;
-    }
-
-    /* Adjust image sizes in research and experience items */
-    .research-item img,
-    .experience-item img {
-        width: 700px !important;
-        height: auto;
-        border-radius: 8px 8px 0 0;
-    }
-
-    /* Adjust padding and width for better viewing */
-    .research-details,
-    .experience-details {
-        padding: 10px;
-    }
-
-    /* Adjust paper title size */
-    .paper-title {
-        font-size: 1em;
-    }
-
-    /* Adjust name size */
-    .name {
-        font-size: 24px;
-    }
-
-    /* Adjust h2 size */
     h2 {
         font-size: 18px;
     }
 
-    /* Adjust base font size */
-    body,
-    td,
-    th,
-    tr,
-    p,
-    a {
-        font-size: 13px;
+    .name {
+        font-size: 24px;
     }
 
-    /* Make tables more responsive */
+    /* Table adjustments */
     table {
         width: 100% !important;
     }
 
-    /* Adjust cell padding */
     td {
         padding: 10px !important;
     }
 
-    /* Make images in experience section stack above text */
-    #experience-table tr td {
-        display: block;
-        width: 100% !important;
-        text-align: center;
-    }
-
-    #experience-table tr td:first-child {
-        margin-bottom: 10px;
-    }
-
-    /* Adjust image size in experience section */
-    #experience-table .one {
-        width: 120px;
-        height: 120px;
-        margin: 0 auto;
-    }
-
-    #experience-table .one img {
-        width: 100%;
-        height: auto;
-    }
-
-    /* Adjust paper table layout */
-    #paper-table tr td {
-        display: block;
-        width: 100% !important;
-        text-align: center;
-    }
-
-    #paper-table tr td:first-child {
-        margin-bottom: 10px;
-    }
-
-    #paper-table .one {
-        width: 120px;
-        height: 120px;
-        margin: 0 auto;
-    }
-
-    #paper-table .one img {
-        width: 100%;
-        height: auto;
-    }
-
-    /* Adjust project table layout */
-    #project-table tr td {
-        display: block;
-        width: 100% !important;
-        text-align: center;
-    }
-
-    #project-table tr td:first-child {
-        margin-bottom: 10px;
-    }
-
-    #project-table .one {
-        width: 120px;
-        height: 120px;
-        margin: 0 auto;
-    }
-
-    #project-table .one img {
-        width: 100%;
-        height: auto;
-    }
-
-    /* Adjust teaching table layout */
+    /* Common styles for all content tables */
+    #paper-table tr td,
+    #project-table tr td,
+    #experience-table tr td,
     #teaching-table tr td {
         display: block;
         width: 100% !important;
         text-align: center;
     }
 
+    #paper-table tr td:first-child,
+    #project-table tr td:first-child,
+    #experience-table tr td:first-child,
     #teaching-table tr td:first-child {
         margin-bottom: 10px;
     }
 
+    /* Common image container styles */
+    #paper-table .one,
+    #project-table .one,
+    #experience-table .one,
     #teaching-table .one {
-        width: 120px;
-        height: 120px;
+        width: 100%;
+        height: auto;
         margin: 0 auto;
     }
 
+    /* Common image styles */
+    #paper-table .one img,
+    #project-table .one img {
+        width: 100%;
+        height: auto;
+        max-width: 400px;
+    }
+
+    #experience-table .one img,
     #teaching-table .one img {
         width: 100%;
         height: auto;
+        max-width: 250px;
     }
 }

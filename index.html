@@ -256,7 +256,7 @@
                             <span class="papertitle">${project.title}</span>
                         </a>
                         <br>
-                        <em><strong>${project.source}</strong></em>
+                        ${project.source}
                         <br>
                         ${links}
                         <p></p>
@@ -295,6 +295,33 @@
 
         // Append row to the table
         exp_table.appendChild(row);
+      });
+
+      const teaching_table = document.getElementById('teaching-table');
+      data.teaching_list.forEach(teaching => {
+        // Create table row
+        const row = document.createElement('tr');
+
+        // Populate row with data
+        row.innerHTML = `
+                  <tr>  
+                    <td style="padding:20px;width:28%;vertical-align:middle">
+                        <div class="one">
+                            <img src="${teaching.image}" width="190">
+                        </div>
+                    </td>
+                    <td style="padding:20px;width:72%;vertical-align:middle">
+                        <span class="papertitle">${teaching.title}</span>
+                        <br>
+                        <a href="${teaching.course_link}">${teaching.course}</a>
+                        <br>
+                        ${teaching.semester}
+                    </td>
+                  </tr> 
+                `;
+
+        // Append row to the table
+        teaching_table.appendChild(row);
       });
     })
     .catch(error => console.error('Error loading JSON:', error));

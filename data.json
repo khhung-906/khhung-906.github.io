@@ -99,5 +99,21 @@
       "paper_link": "data/Text_Behavior_Retrieval.pdf",
       "abstract": "We propose a method for retrieving task-relevant data for imitation learning without requiring expert demonstrations. Our approach leverages text descriptions in combination with a vision-language model to enable zero-shot behavior retrieval."
     }
+  ],
+  "teaching_list": [
+    {
+      "title": "Teaching Assistant, Introduction to Computer Science",
+      "image": "images/NTU.png",
+      "course": "CSIE1000 Introduction to Computer Science",
+      "course_link": "https://winstonhsu.info/2024f-comp-intro/",
+      "semester": "Fall 2024"
+    },
+    {
+      "title": "Teaching Assistant, Machine Learning",
+      "image": "images/NTU.png",
+      "course": "CSIE5043: Machine Learning",
+      "course_link": "https://www.csie.ntu.edu.tw/~htlin/course/ml23spring/",
+      "semester": "Spring 2023"
+    }
   ]
 }
