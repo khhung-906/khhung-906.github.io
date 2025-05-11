@@ -20,7 +20,7 @@
         "authors": "<strong>Kuo-Han Hung</strong>, Ching-Yun Ko, Ambrish Rawat, I-Hsin Chung, Winston H. Hsu, Pin-Yu Chen",
         "conference": "Annual Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics (NAACL) 2025",
         "paper_link": "https://arxiv.org/abs/2411.00348",
-        "code_link": "",
+        "code_link": "https://github.com/khhung-906/Attention-Tracker",
         "page_link": "https://huggingface.co/spaces/TrustSafeAI/Attention-Tracker",
         "abstract": "LLM-integrated application (ex. LLM agent) excel across domains but remain vulnerable to prompt injection attacks. We introduce Attention Tracker, a training-free detection method that monitors attention patterns to identify such attacks without requiring additional LLM inference."  
       },
@@ -31,7 +31,7 @@
         "conference": "International Conference on Learning Representations (ICLR) 2025",
         "paper_link": "https://arxiv.org/abs/2405.16545",
         "code_link": "",
-        "page_link": "",
+        "page_link": "https://cmlab-victor.github.io/cmlab-vicotor.github.io/",
         "abstract": "Existing Vision-Instruction Correlation (VIC) reward models struggle with training for long-horizon tasks. We propose VICtoR, a new reward model for long-horizon robotic reinforcement learning that assigns rewards hierarchically."  
       },
       {
