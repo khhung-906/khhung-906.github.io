@@ -20,7 +20,7 @@
   "paper_list": [
     {
       "title": "Attention Tracker: Detecting Prompt Injection Attacks in LLMs",
-      "image": "images/attention.png",
+      "image": "assets/images/attention.png",
       "authors": "<strong>Kuo-Han Hung</strong>, Ching-Yun Ko, Ambrish Rawat, I-Hsin Chung, Winston Hsu, Pin-Yu Chen",
       "conference": "Annual Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics (NAACL) 2025",
       "paper_link": "https://arxiv.org/abs/2411.00348",
@@ -30,7 +30,7 @@
     },
     {
       "title": "VICtoR: Learning Hierarchical Vision-Instruction Correlation Rewards for Long-horizon Manipulation",
-      "image": "images/victor.png",
+      "image": "assets/images/victor.png",
       "authors": "<strong>Kuo-Han Hung*</strong>, Pang-Chi Lo*, Jia-Fong Yeh*, Han-Yuan Hsu, Yi-Ting Chen, Winston Hsu",
       "conference": "International Conference on Learning Representations (ICLR) 2025",
       "paper_link": "https://arxiv.org/abs/2405.16545",
@@ -40,7 +40,7 @@
     },
     {
       "title": "AED: Adaptable Error Detection for Few-shot Imitation Policy",
-      "image": "images/aed.png",
+      "image": "assets/images/aed.png",
       "authors": "Jia-Fong Yeh, <strong>Kuo-Han Hung*</strong>, Pang-Chi Lo*, Chi-Ming Chung, Tsung-Han Wu, Hung-Ting Su, Yi-Ting Chen, Winston Hsu",
       "conference": "Conference on Neural Information Processing System (NeurIPS) 2024",
       "paper_link": "https://arxiv.org/abs/2402.03860",
@@ -50,7 +50,7 @@
     },
     {
       "title": "Customizable Routing with Learnings from Past Recommendations",
-      "image": "images/map.png",
+      "image": "assets/images/map.png",
       "authors": "<strong>Kuo-Han Hung</strong>, Chiqun Zhang, Dragomir Yankov",
       "conference": "ACM SIGSPATIAL 2024",
       "paper_link": "https://dl.acm.org/doi/10.1145/3678717.3691327",
@@ -60,7 +60,7 @@
     },
     {
       "title": "Open-domain conversational question answering with historical answers",
-      "image": "images/conv.png",
+      "image": "assets/images/conv.png",
       "authors": "Hung-Chieh Fang*, <strong>Kuo-Han Hung*</strong>, Chao-Wei Huang, Yun-Nung Chen",
       "conference": "Annual Conference of the Asian Chapter of the Association for Computational Linguistics (AACL) 2022",
       "paper_link": "https://arxiv.org/abs/2211.09401",
@@ -71,14 +71,14 @@
   "exp_list": [
     {
       "title": "Research Intern, IBM research",
-      "image": "images/ibm_research.png",
+      "image": "assets/images/ibm_research.png",
       "date": "Jun. 2024 - Sep. 2024",
       "advisor": "Advised by <a href='https://sites.google.com/site/pinyuchenpage/'>Dr. Pin-Yu Chen</a>",
       "intro": "Research in trustworthy AI."
     },
     {
       "title": "Applied Scientist Intern, Microsoft",
-      "image": "images/microsoft.png",
+      "image": "assets/images/microsoft.png",
       "date": "Jul. 2023 - Jun. 2024",
       "advisor": "Advised by <a href='https://chiqunz.github.io/'>Dr. Chiqun Zhang</a>",
       "intro": "Integrated Bing Maps services and context-aware map search system with Microsoft Copilot for complicated map quires; Developed a new path finding algorithm that learns from historical data to achieve over a 10x speedup."
@@ -88,22 +88,22 @@
     {
       "title": "Vulnerabilities in VLM-Powered Policies",
       "source": "Course Project of Security and Privacy of ML, Spring 2024",
-      "image": "images/vul_policy.png",
+      "image": "assets/images/vul_policy.png",
       "slide_link": "https://docs.google.com/presentation/d/1uE96UYIB6Sy6T1XGx58W7zIbceSfLbVzbuZMOTgJFFs/edit?usp=sharing",
       "abstract": "Developed a text and image-based adversarial attack method to manipulate embodied AI behavior, achieving a 40% increase in targeted attack success on VLM-powered policy networks."
     },
     {
       "title": "Zero-shot Text Behavior Retrieval",
       "source": "Course Project of Reinforcement Learning, Fall 2023",
-      "image": "images/text_br.png",
-      "paper_link": "data/Text_Behavior_Retrieval.pdf",
+      "image": "assets/images/text_br.png",
+      "paper_link": "assets/data/Text_Behavior_Retrieval.pdf",
       "abstract": "We propose a method for retrieving task-relevant data for imitation learning without requiring expert demonstrations. Our approach leverages text descriptions in combination with a vision-language model to enable zero-shot behavior retrieval."
     }
   ],
   "teaching_list": [
     {
       "school": "National Taiwan University",
-      "image": "images/NTU.png",
+      "image": "assets/images/NTU.png",
       "courses": [
         {
           "title": "Teaching Assistant",
