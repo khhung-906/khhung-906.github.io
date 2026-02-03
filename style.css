@@ -88,7 +88,7 @@ a:hover {
 h2 {
     margin: 0;
     font-weight: normal;
-    font-size: 20px;
+    font-size: 24px;
 }
 
 .papertitle {
@@ -98,14 +98,18 @@ h2 {
 .name {
     padding-top: 20px;
     margin: 0;
-    font-size: 28px;
+    font-size: 30px;
 }
 
-/* Image containers */
+/* Image containers - width set inline per item; img fills container */
 .one {
-    width: 160px;
-    height: 160px;
     position: relative;
+}
+
+.one img {
+    width: 100%;
+    height: auto;
+    display: block;
 }
 
 .two {
@@ -128,7 +132,7 @@ span.highlight {
 
     /* Base adjustments */
     body {
-        font-size: 13px;
+        font-size: 14px;
     }
 
     h2 {
@@ -150,7 +154,6 @@ span.highlight {
 
     /* Common styles for all content tables */
     #paper-table tr td,
-    #project-table tr td,
     #experience-table tr td,
     #teaching-table tr td {
         display: block;
@@ -159,7 +162,6 @@ span.highlight {
     }
 
     #paper-table tr td:first-child,
-    #project-table tr td:first-child,
     #experience-table tr td:first-child,
     #teaching-table tr td:first-child {
         margin-bottom: 10px;
@@ -167,7 +169,6 @@ span.highlight {
 
     /* Common image container styles */
     #paper-table .one,
-    #project-table .one,
     #experience-table .one,
     #teaching-table .one {
         width: 100%;
@@ -176,8 +177,7 @@ span.highlight {
     }
 
     /* Common image styles */
-    #paper-table .one img,
-    #project-table .one img {
+    #paper-table .one img {
         width: 100%;
         height: auto;
         max-width: 400px;
