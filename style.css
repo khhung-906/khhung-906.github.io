@@ -167,11 +167,12 @@ span.highlight {
         margin-bottom: 10px;
     }
 
-    /* Common image container styles */
+    /* Common image container styles - !important needed to override inline styles */
     #paper-table .one,
     #experience-table .one,
     #teaching-table .one {
-        width: 100%;
+        max-width: 100% !important;
+        width: 100% !important;
         height: auto;
         margin: 0 auto;
     }
@@ -181,17 +182,20 @@ span.highlight {
         width: 100%;
         height: auto;
         max-width: 400px;
+        margin: 0 auto;
     }
 
     #experience-table .one img {
         width: 100%;
         height: auto;
         max-width: 200px;
+        margin: 0 auto;
     }
 
     #teaching-table .one img {
         width: 100%;
         height: auto;
         max-width: 180px;
+        margin: 0 auto;
     }
 }

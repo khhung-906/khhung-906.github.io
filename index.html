@@ -199,9 +199,9 @@
         const paperImgSize = Math.round(240 * (paper.image_size ?? 1));
         // Populate row with data
         row.innerHTML = `
-                  <tr>  
+                  <tr>
                     <td style="padding:20px;width:20%;vertical-align:top">
-                        <div class="one" style="width: ${paperImgSize}px">
+                        <div class="one" style="max-width: ${paperImgSize}px; width: 100%">
                             <img src="${paper.image}" alt="${paper.title} illustration">
                         </div>
                     </td>
@@ -235,7 +235,7 @@
         row.innerHTML = `
                   <tr>
                     <td style="padding:20px;width:22%;vertical-align:top">
-                        <div class="one" style="width: ${expImgSize}px">
+                        <div class="one" style="max-width: ${expImgSize}px; width: 100%">
                             <img src="${exp.image}" alt="${exp.title} logo">
                         </div>
                     </td>
@@ -269,9 +269,9 @@
         const schoolImgSize = Math.round(220 * (school.image_size ?? 1));
         // Populate row with data
         row.innerHTML = `
-                  <tr>  
+                  <tr>
                     <td style="padding:20px;width:22%;vertical-align:top">
-                        <div class="one" style="width: ${schoolImgSize}px">
+                        <div class="one" style="max-width: ${schoolImgSize}px; width: 100%">
                             <img src="${school.image}" alt="${school.school} logo">
                         </div>
                     </td>
