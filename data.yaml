@@ -14,7 +14,7 @@ paper_list:
     image_size: 1.0
     authors: "Perry Dong*, <strong>Kuo-Han Hung*</strong>, Alexander Swerdlow, Dorsa Sadigh, and Chelsea Finn"
     conference: "Under Review"
-    paper_link: ""
+    paper_link: "https://arxiv.org/abs/2602.01439"
     code_link: "https://github.com/pd-perry/TQL"
     page_link: "https://pd-perry.github.io/transformer-q-learning/"
     abstract: "Transformer-based Q-learning scales poorly due to attention collapse. We propose TQL, which prevents collapse through proper scaling and architecture choices, enabling effective Q-functions in both offline and online RL."

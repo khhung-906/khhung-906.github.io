@@ -51,12 +51,12 @@
                       Winston Hsu</a>, <a href="https://shaohua0116.github.io/">Prof. Shao-Hua Sun</a>, and <a
                       href="https://www.csie.ntu.edu.tw/~yvchen/">Prof. Yun-Nung Chen</a>.
                   </p>
-                  <p style="text-align:justify;">
+                  <!-- <p style="text-align:justify;">
                     Previously, I interned at <a href="https://research.ibm.com/labs/yorktown-heights">IBM Research</a>
                     in New York with <a href="https://sites.google.com/site/pinyuchenpage/">Dr. Pin-Yu Chen</a> and at
                     <a href="https://www.microsoft.com/">Microsoft</a> with <a href="https://chiqunz.github.io/">Dr.
                       Chiqun Zhang</a>.
-                  </p>
+                  </p> -->
                   <p style="text-align:center">
                     <a href="mailto:khhung906@gmail.com">Email</a> &nbsp;/&nbsp;
                     <a href="assets/data/CV_kuo_han_hung.pdf">CV</a> &nbsp;/&nbsp;
@@ -196,7 +196,7 @@
         if (paper.page_link) links += `${links ? ' / ' : ''}<a href="${paper.page_link}">website</a>`;
         if (paper.code_link) links += `${links ? ' / ' : ''}<a href="${paper.code_link}">code</a>`;
 
-        const paperImgSize = Math.round(240 * (paper.image_size ?? 1));
+        const paperImgSize = Math.round(300 * (paper.image_size ?? 1));
         // Populate row with data
         row.innerHTML = `
                   <tr>
