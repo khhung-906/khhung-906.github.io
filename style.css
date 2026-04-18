@@ -52,8 +52,8 @@ a {
 }
 
 a:hover {
-  color: var(--link-hover);
-  text-decoration-color: var(--link-hover);
+  color: var(--text);
+  text-decoration-color: var(--text);
 }
 
 /* Intro / header */
@@ -295,8 +295,8 @@ a:hover {
 }
 
 .paper-authors a:hover {
-  color: var(--link-hover);
-  text-decoration-color: var(--link-hover);
+  color: var(--text);
+  text-decoration-color: var(--text);
 }
 
 .paper-venue {
