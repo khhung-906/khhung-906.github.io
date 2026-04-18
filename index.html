@@ -20,275 +20,216 @@
   <meta name="author" content="Kuo-Han Hung">
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="style.css">
   <link rel="icon"
     href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🤖</text></svg>">
 </head>
 
-
 <body>
-  <table
-    style="width:100%;max-width:850px;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-    <tbody>
-      <tr style="padding:0px">
-        <td style="padding:0px">
-          <table
-            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-            <tbody>
-              <tr style="padding:0px">
-                <td style="padding:2.5%;width:62%;vertical-align:middle">
-                  <h1 class="name" style="text-align: center;">
-                    Kuo-Han Hung
-                  </h1>
-                  <p style="text-align:justify;">
-                    I am a first-year master's student in Computer Science at Stanford University, specializing in AI
-                    and robotics, where I am fortunate to be advised by <a href="https://dorsa.fyi/">Prof. Dorsa
-                      Sadigh</a> and <a href="https://ai.stanford.edu/~cbfinn/">Prof. Chelsea Finn</a>.
-                  </p>
-                  <p style="text-align:justify;">
-                    Prior to Stanford, I received my bachelor's degree in Computer Science from National Taiwan
-                    University, where I had the privilege of being advised by <a href="https://winstonhsu.info/">Prof.
-                      Winston Hsu</a>, <a href="https://shaohua0116.github.io/">Prof. Shao-Hua Sun</a>, and <a
-                      href="https://www.csie.ntu.edu.tw/~yvchen/">Prof. Yun-Nung Chen</a>.
-                  </p>
-                  <!-- <p style="text-align:justify;">
-                    Previously, I interned at <a href="https://research.ibm.com/labs/yorktown-heights">IBM Research</a>
-                    in New York with <a href="https://sites.google.com/site/pinyuchenpage/">Dr. Pin-Yu Chen</a> and at
-                    <a href="https://www.microsoft.com/">Microsoft</a> with <a href="https://chiqunz.github.io/">Dr.
-                      Chiqun Zhang</a>.
-                  </p> -->
-                  <p style="text-align:center">
-                    <a href="mailto:khhung906@gmail.com">Email</a> &nbsp;/&nbsp;
-                    <a href="assets/data/CV_kuo_han_hung.pdf">CV</a> &nbsp;/&nbsp;
-                    <a href="https://scholar.google.com/citations?user=OqJUJL8AAAAJ&hl=en">Google Scholar</a>
-                    &nbsp;/&nbsp;
-                    <a href="https://github.com/khhung-906">Github</a> &nbsp;/&nbsp;
-                    <a href="https://www.linkedin.com/in/johnson-hung-axz906/">LinkedIn</a>
-                  </p>
-                </td>
-                <td style="padding:2.5%;width:30%;max-width:30%">
-                  <a href="assets/images/Johnson.jpg"><img style="width:100%;max-width:95%"
-                      alt="Kuo-Han Hung profile photo" src="assets/images/Johnson.jpg" class="hoverZoomLink"></a>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+  <main class="container">
+    <header class="intro">
+      <div class="intro-top">
+        <img class="avatar" src="assets/images/Johnson.jpg" alt="Kuo-Han Hung">
+        <div class="intro-text">
+          <h1 class="name">Kuo-Han Hung</h1>
+          <p class="tagline">MSCS student at Stanford &middot; AI &amp; robotics researcher</p>
+        </div>
+      </div>
+      <nav class="links" aria-label="Contact and profiles">
+        <a href="mailto:khhung906@gmail.com">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="m3 7 9 6 9-6"/></svg>
+          <span>Email</span>
+        </a>
+        <a href="assets/data/CV_kuo_han_hung.pdf">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14 3H7a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V8z"/><path d="M14 3v5h5"/><path d="M9 13h6"/><path d="M9 17h6"/></svg>
+          <span>CV</span>
+        </a>
+        <a href="https://scholar.google.com/citations?user=OqJUJL8AAAAJ&hl=en">
+          <svg class="icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 10 12 4 2 10l10 6 10-6z"/><path d="M6 12v5c0 1.657 2.686 3 6 3s6-1.343 6-3v-5"/></svg>
+          <span>Google Scholar</span>
+        </a>
+        <a href="https://github.com/khhung-906">
+          <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 .5C5.73.5.5 5.73.5 12c0 5.08 3.29 9.39 7.86 10.91.58.1.79-.25.79-.56v-2c-3.2.7-3.88-1.37-3.88-1.37-.52-1.33-1.28-1.69-1.28-1.69-1.05-.72.08-.7.08-.7 1.16.08 1.77 1.2 1.77 1.2 1.03 1.77 2.71 1.26 3.37.96.1-.75.4-1.26.73-1.55-2.55-.29-5.24-1.28-5.24-5.69 0-1.26.45-2.29 1.19-3.09-.12-.29-.52-1.47.11-3.06 0 0 .97-.31 3.18 1.18a11 11 0 0 1 5.79 0c2.21-1.49 3.18-1.18 3.18-1.18.63 1.59.23 2.77.11 3.06.74.8 1.19 1.83 1.19 3.09 0 4.42-2.7 5.4-5.26 5.68.41.35.77 1.05.77 2.12v3.14c0 .31.21.67.8.56 4.57-1.52 7.86-5.83 7.86-10.91C23.5 5.73 18.27.5 12 .5Z"/></svg>
+          <span>GitHub</span>
+        </a>
+        <a href="https://www.linkedin.com/in/johnson-hung-axz906/">
+          <svg class="icon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.56v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.34V9h3.41v1.56h.05c.48-.9 1.64-1.85 3.37-1.85 3.6 0 4.27 2.37 4.27 5.45v6.29ZM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12ZM7.12 20.45H3.56V9h3.56v11.45ZM22.22 0H1.77C.79 0 0 .77 0 1.72v20.56C0 23.23.79 24 1.77 24h20.45c.98 0 1.78-.77 1.78-1.72V1.72C24 .77 23.2 0 22.22 0Z"/></svg>
+          <span>LinkedIn</span>
+        </a>
+      </nav>
+    </header>
 
-          <table
-            style="margin-top: -20px;width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-            <tbody>
-              <tr>
-                <td style="padding:20px;width:100%;vertical-align:middle">
-                  <h2>News</h2>
-                  <p></p>
-                </td>
-              </tr>
-            </tbody>
-          </table>
+    <section class="about">
+      <p>
+        I am a first-year master's student in Computer Science at Stanford University, specializing in AI
+        and robotics, where I am fortunate to be advised by <a href="https://dorsa.fyi/">Prof. Dorsa
+          Sadigh</a> and <a href="https://ai.stanford.edu/~cbfinn/">Prof. Chelsea Finn</a>.
+      </p>
+      <p>
+        Prior to Stanford, I received my bachelor's degree in Computer Science from National Taiwan
+        University, where I had the privilege of being advised by <a href="https://winstonhsu.info/">Prof.
+          Winston Hsu</a>, <a href="https://shaohua0116.github.io/">Prof. Shao-Hua Sun</a>, and <a
+          href="https://www.csie.ntu.edu.tw/~yvchen/">Prof. Yun-Nung Chen</a>.
+      </p>
+    </section>
 
-          <table id="news-table"
-            style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-top: -20px;margin-right:auto;margin-left:auto;">
-            <tbody>
+    <!-- News section hidden per user request; markup preserved.
+    <section class="section">
+      <h2>News</h2>
+      <ul class="news" id="news-list"></ul>
+    </section>
+    -->
+    <ul id="news-list" hidden></ul>
 
-              <table
-                style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                <tbody>
-                  <tr>
-                    <td style="padding:20px;width:100%;vertical-align:middle">
-                      <h2>Research</h2>
-                      <p>I am broadly interested in robotics, reinforcement learning, and generative models with the
-                        goal of developing robots with generalist intelligence that can autonomously adapt through
-                        interaction and feedback from both humans and the physical world.</p>
-                    </td>
-                  </tr>
-                </tbody>
-              </table>
-              <table id="paper-table"
-                style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                <tbody>
+    <section class="section">
+      <h2>Research</h2>
+      <p class="section-intro">
+        I am broadly interested in robotics, reinforcement learning, and generative models with the
+        goal of developing robots with generalist intelligence that can autonomously adapt through
+        interaction and feedback from both humans and the physical world.
+      </p>
+      <div class="paper-filters" role="tablist" aria-label="Filter research">
+        <button class="filter-btn is-active" data-filter="selected" role="tab">Selected</button>
+        <button class="filter-btn" data-filter="rl" role="tab">Reinforcement Learning</button>
+        <button class="filter-btn" data-filter="robotics" role="tab">Robotics</button>
+        <button class="filter-btn" data-filter="all" role="tab">All</button>
+      </div>
+      <div class="papers" id="paper-list"></div>
+    </section>
 
+    <section class="section">
+      <h2>Experience</h2>
+      <div class="entries" id="experience-list"></div>
+    </section>
 
+    <section class="section">
+      <h2>Teaching</h2>
+      <div class="entries" id="teaching-list"></div>
+    </section>
 
-                  <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-                    <tbody>
-                      <tr>
-                        <td>
-                          <h2>Experience</h2>
-                        </td>
-                      </tr>
-                    </tbody>
-                  </table>
+  </main>
 
-                  <table id="experience-table"
-                    style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                    <tbody>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
+  <script>
+    fetch('data.yaml?v=' + Date.now())
+      .then(response => response.text())
+      .then(yamlText => jsyaml.load(yamlText))
+      .then(data => {
+        // News
+        const newsList = document.getElementById('news-list');
+        data.news_list.forEach(news => {
+          const li = document.createElement('li');
+          li.className = 'news-item';
+          li.innerHTML = `
+            <span class="news-date">${news.date}</span>
+            <span class="news-text">${news.news}</span>
+          `;
+          newsList.appendChild(li);
+        });
 
+        // Papers
+        const paperList = document.getElementById('paper-list');
+        data.paper_list.forEach(paper => {
+          let links = [];
+          if (paper.paper_link) links.push(`<a href="${paper.paper_link}">paper</a>`);
+          if (paper.page_link) links.push(`<a href="${paper.page_link}">website</a>`);
+          if (paper.code_link) links.push(`<a href="${paper.code_link}">code</a>`);
+          const linksHtml = links.length ? `<div class="paper-links">${links.join(' · ')}</div>` : '';
 
-                      <table width="100%" align="center" border="0" cellspacing="0" cellpadding="20">
-                        <tbody>
-                          <tr>
-                            <td>
-                              <h2>Teaching</h2>
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
-                      <table id="teaching-table"
-                        style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                        <tbody>
+          const titleHtml = paper.paper_link
+            ? `<a class="paper-title" href="${paper.paper_link}">${paper.title}</a>`
+            : `<span class="paper-title">${paper.title}</span>`;
 
-                        </tbody>
-                      </table>
+          const venueText = paper.venue || paper.conference;
+          const venueClass = /under review/i.test(venueText)
+            ? 'venue-pill venue-review'
+            : /workshop/i.test(venueText)
+              ? 'venue-pill venue-workshop'
+              : 'venue-pill venue-accepted';
+          const venueHtml = `<span class="${venueClass}" title="${paper.conference.replace(/"/g, '&quot;')}">${venueText}</span>`;
 
-                      <table
-                        style="width:100%;border:0px;border-spacing:0px;border-collapse:separate;margin-right:auto;margin-left:auto;">
-                        <tbody>
-                          <tr>
-                            <td style="padding:0px">
-                              <br>
-                              <p style="text-align:right;">
-                                Website template is adapted from <a
-                                  href="https://github.com/jonbarron/jonbarron_website">here</a>.
-                              </p>
-                            </td>
-                          </tr>
-                        </tbody>
-                      </table>
+          const div = document.createElement('article');
+          div.className = 'paper';
+          div.dataset.tags = (paper.tags || []).join(',');
+          div.innerHTML = `
+            <div class="paper-thumb">
+              <img src="${paper.image}" alt="${paper.title} illustration" loading="lazy">
+            </div>
+            <div class="paper-body">
+              ${titleHtml}
+              <p class="paper-authors">${paper.authors}</p>
+              <p class="paper-venue-row">${venueHtml}</p>
+              <p class="paper-abstract">${paper.abstract}</p>
+              ${linksHtml}
+            </div>
+          `;
+          paperList.appendChild(div);
+        });
 
-        </td>
-      </tr>
-  </table>
+        const applyFilter = (filter) => {
+          document.querySelectorAll('.paper').forEach(p => {
+            const tags = (p.dataset.tags || '').split(',').filter(Boolean);
+            const show = filter === 'all' || tags.includes(filter);
+            p.style.display = show ? '' : 'none';
+          });
+        };
+
+        document.querySelectorAll('.filter-btn').forEach(btn => {
+          btn.addEventListener('click', () => {
+            document.querySelectorAll('.filter-btn').forEach(b => b.classList.toggle('is-active', b === btn));
+            applyFilter(btn.dataset.filter);
+          });
+        });
+
+        applyFilter('selected');
+
+        // Experience
+        const expList = document.getElementById('experience-list');
+        data.exp_list.forEach(exp => {
+          const div = document.createElement('article');
+          div.className = 'entry';
+          div.innerHTML = `
+            <div class="entry-logo">
+              <img src="${exp.image}" alt="${exp.title} logo" loading="lazy">
+            </div>
+            <div class="entry-body">
+              <h3 class="entry-title">${exp.title}</h3>
+              <p class="entry-meta">${exp.date}</p>
+              <p class="entry-meta">${exp.advisor}</p>
+              <p class="entry-desc">${exp.intro}</p>
+            </div>
+          `;
+          expList.appendChild(div);
+        });
+
+        // Teaching
+        const teachingList = document.getElementById('teaching-list');
+        data.teaching_list.forEach(school => {
+          const coursesHtml = school.courses.map(course => `
+            <p class="entry-desc">
+              <strong>${course.title}</strong>, <a href="${course.course_link}">${course.course}</a>, ${course.semester}
+            </p>
+          `).join('');
+
+          const div = document.createElement('article');
+          div.className = 'entry';
+          div.innerHTML = `
+            <div class="entry-logo">
+              <img src="${school.image}" alt="${school.school} logo" loading="lazy">
+            </div>
+            <div class="entry-body">
+              <h3 class="entry-title">${school.school}</h3>
+              ${coursesHtml}
+            </div>
+          `;
+          teachingList.appendChild(div);
+        });
+      })
+      .catch(error => console.error('Error loading YAML:', error));
+  </script>
 </body>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/4.1.0/js-yaml.min.js"></script>
-<script>
-  // Load YAML data and render HTML
-  fetch('data.yaml')
-    .then(response => response.text())
-    .then(yamlText => jsyaml.load(yamlText))
-    .then(data => {
-      const news_table = document.getElementById('news-table');
-      data.news_list.forEach(news => {
-        // Create table row
-        const row = document.createElement('tr');
-
-
-        // Populate row with data
-        row.innerHTML = `
-                  <tr>  
-                    <td style="padding-left: 20px; width:70%; vertical-align:middle">
-                      <strong><span class="newsdate">- [${news.date}] </span></strong>  ${news.news}
-                    </td>
-                  </tr>
-                `;
-
-        // Append row to the table
-        news_table.appendChild(row);
-      });
-
-      const paper_table = document.getElementById('paper-table');
-      data.paper_list.forEach(paper => {
-        // Create table row
-        const row = document.createElement('tr');
-
-        // Build links conditionally
-        let links = '';
-        if (paper.paper_link) links += `<a href="${paper.paper_link}">paper</a>`;
-        if (paper.page_link) links += `${links ? ' / ' : ''}<a href="${paper.page_link}">website</a>`;
-        if (paper.code_link) links += `${links ? ' / ' : ''}<a href="${paper.code_link}">code</a>`;
-
-        const paperImgSize = Math.round(300 * (paper.image_size ?? 1));
-        // Populate row with data
-        row.innerHTML = `
-                  <tr>
-                    <td style="padding:20px;width:20%;vertical-align:top">
-                        <div class="one" style="max-width: ${paperImgSize}px; width: 100%">
-                            <img src="${paper.image}" alt="${paper.title} illustration">
-                        </div>
-                    </td>
-                    <td style="padding:20px;width:80%;vertical-align:middle">
-                        <a href="${paper.paper_link}">
-                            <span class="papertitle">${paper.title}</span>
-                        </a>
-                        <br>
-                        ${paper.authors}
-                        <br>
-                        <em><strong>${paper.conference}</strong></em>
-                        <br>
-                        ${links}
-                        <p></p>
-                        <p style="text-align: justify;width:95%;">${paper.abstract}</p>
-                    </td>
-                  </tr> 
-                `;
-
-        // Append row to the table
-        paper_table.appendChild(row);
-      });
-
-      const exp_table = document.getElementById('experience-table');
-      data.exp_list.forEach(exp => {
-        // Create table row
-        const row = document.createElement('tr');
-
-        const expImgSize = Math.round(220 * (exp.image_size ?? 1));
-        // Populate row with data
-        row.innerHTML = `
-                  <tr>
-                    <td style="padding:20px;width:22%;vertical-align:top">
-                        <div class="one" style="max-width: ${expImgSize}px; width: 100%">
-                            <img src="${exp.image}" alt="${exp.title} logo">
-                        </div>
-                    </td>
-                    <td style="padding:20px;width:78%;vertical-align:middle">
-                        <strong><papertitle>${exp.title}</papertitle></strong>
-                      <br>
-                      ${exp.date}
-                      <br>
-                      <p>${exp.advisor}</p>
-                      <p>${exp.intro}</p>
-                    </td>
-                  </tr>
-                `;
-
-        // Append row to the table
-        exp_table.appendChild(row);
-      });
-
-      const teaching_table = document.getElementById('teaching-table');
-      data.teaching_list.forEach(school => {
-        // Create table row for school
-        const row = document.createElement('tr');
-
-        // Create courses HTML
-        const coursesHtml = school.courses.map(course => `
-          <p>
-            <span class="papertitle">${course.title}</span>, <a href="${course.course_link}">${course.course}</a>, ${course.semester}
-          </p>
-        `).join('');
-
-        const schoolImgSize = Math.round(220 * (school.image_size ?? 1));
-        // Populate row with data
-        row.innerHTML = `
-                  <tr>
-                    <td style="padding:20px;width:22%;vertical-align:top">
-                        <div class="one" style="max-width: ${schoolImgSize}px; width: 100%">
-                            <img src="${school.image}" alt="${school.school} logo">
-                        </div>
-                    </td>
-                    <td style="padding:20px;width:78%;vertical-align:middle">
-                        <strong>${school.school}</strong>
-                        ${coursesHtml}
-                    </td>
-                  </tr> 
-                `;
-
-        // Append row to the table
-        teaching_table.appendChild(row);
-      });
-    })
-    .catch(error => console.error('Error loading YAML:', error));
-
-
-</script>
 
 </html>
