@@ -19,7 +19,7 @@ paper_list:
     paper_link: "https://arxiv.org/abs/2602.01439"
     code_link: "https://github.com/pd-perry/TQL"
     page_link: "https://pd-perry.github.io/transformer-q-learning/"
-    abstract: "Transformer Q-functions suffer from attention collapse. TQL prevents this via proper scaling and architecture choices, enabling effective Q-learning in both offline and online RL."
+    abstract: "TQL identifies attention collapse as why transformer Q-functions fail to scale, and fixes it to unlock value function scaling for offline and online RL."
   - title: "DexMan: Learning Bimanual Dexterous Manipulation from Human and Generated Videos"
     image: "assets/images/dexman.png"
     image_size: 1.0
@@ -30,7 +30,7 @@ paper_list:
     paper_link: "https://arxiv.org/abs/2510.08475"
     code_link: "https://github.com/EmbodiedAI-NTU/DexMan"
     page_link: "https://embodiedai-ntu.github.io/dexman/index.html"
-    abstract: "DexMan converts human videos into bimanual dexterous manipulation for humanoid robots without calibration or ground-truth actions, using contact-based rewards to achieve state-of-the-art results."
+    abstract: "DexMan is a real2sim policy training framework that turns human and generated videos into bimanual dexterous manipulation for humanoids — no calibration, teleop, or action labels."
   - title: "Learning Skill Abstraction from Action-Free Videos via Optical Flow"
     image: "assets/images/sof.png"
     image_size: 1.05
@@ -41,7 +41,7 @@ paper_list:
     paper_link: "https://arxiv.org/abs/2512.20052"
     code_link: ""
     page_link: ""
-    abstract: "SOF learns latent skills from action-free videos via optical flow, bridging video models and low-level actions for improved multitask and long-horizon performance."
+    abstract: "SOF uses optical flow as a universal action space bridging action-free video and low-level control, unlocking web-scale video for multitask, long-horizon policy learning."
   - title: "Attention Tracker: Detecting Prompt Injection Attacks in LLMs"
     image: "assets/images/attention.png"
     image_size: 0.95
@@ -52,7 +52,7 @@ paper_list:
     paper_link: "https://arxiv.org/abs/2411.00348"
     code_link: "https://github.com/khhung-906/Attention-Tracker"
     page_link: "https://huggingface.co/spaces/TrustSafeAI/Attention-Tracker"
-    abstract: "Attention Tracker is a training-free method that monitors attention patterns to detect prompt injection attacks on LLM agents without additional inference."
+    abstract: "Attention Tracker exposes an attention-level signature of prompt injection and turns it into a training-free, model-agnostic detector for LLM agents."
   - title: "VICtoR: Learning Hierarchical Vision-Instruction Correlation Rewards for Long-horizon Manipulation"
     image: "assets/images/victor.png"
     image_size: 1.0
@@ -63,7 +63,7 @@ paper_list:
     paper_link: "https://arxiv.org/abs/2405.16545"
     code_link: ""
     page_link: "https://cmlab-victor.github.io/cmlab-vicotor.github.io/"
-    abstract: "VICtoR is a hierarchical reward model using LLMs for task decomposition and VLMs for progress assessment, improving long-horizon manipulation success by 43%."
+    abstract: "VICtoR uses foundation models to generate dense hierarchical rewards from vision and instructions, making long-horizon manipulation learnable from scratch with RL."
   - title: "AED: Adaptable Error Detection for Few-shot Imitation Policy"
     image: "assets/images/aed.png"
     image_size: 1.0
@@ -74,7 +74,7 @@ paper_list:
     paper_link: "https://arxiv.org/abs/2402.03860"
     code_link: ""
     page_link: "https://aed-neurips.github.io/#"
-    abstract: "We formulate the adaptable error detection problem for monitoring few-shot imitation policies and propose PrObe, which learns directly from the policy's feature representations."
+    abstract: "AED introduces adaptable error detection — catching failures of few-shot imitation policies on unseen tasks — for safe open-world robot deployment."
   # - title: "Customizable Routing with Learnings from Past Recommendations"
   #   image: "assets/images/map.png"
   #   authors: "<strong>Kuo-Han Hung</strong>, Chiqun Zhang, Dragomir Yankov"
