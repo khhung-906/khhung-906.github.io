@@ -37,7 +37,7 @@ paper_list:
     tags: [robotics]
     authors: "<a href='https://hc-fang.github.io/'>Hung-Chieh Fang</a>*, <strong>Kuo-Han Hung*</strong>, Chu-Rong Chen, Po-Jung Chou, Chun-Kai Yang, Po-Chen Ko, <a href='https://vllab.ee.ntu.edu.tw/ycwang.html'>Yu-Chiang Wang</a>, <a href='https://kristery.github.io/'>Yueh-Hua Wu</a>, <a href='https://minhungchen.netlify.app/'>Min-Hung Chen</a>, and <a href='https://shaohua0116.github.io/'>Shao-Hua Sun</a>"
     conference: "ICML Workshop on Building Physically Plausible World Models, 2025"
-    venue: "ICML 2025"
+    venue: "ICMLW 2025"
     paper_link: "https://arxiv.org/abs/2512.20052"
     code_link: ""
     page_link: ""
