@@ -9,28 +9,31 @@ news_list:
     news: "Our paper <strong>AED</strong> is accepted by <strong>NeurIPS 2024</strong>!"
 
 paper_list:
+  - title: "EXPO-FT: Sample-Efficient Reinforcement Learning Finetuning for Vision-Language-Action Models"
+    image: "assets/images/expo_ft.png"
+    video: "https://pd-perry.github.io/expo-ft/videos/rollouts/light.mp4"
+    image_size: 1.0
+    tags: [selected, rl, robotics]
+    authors: "Perry Dong*, <strong>Kuo-Han Hung*</strong>, Tian Gao, <a href='https://dorsa.fyi/'>Dorsa Sadigh</a>, and <a href='https://ai.stanford.edu/~cbfinn/'>Chelsea Finn</a>"
+    conference: "Under Review"
+    venue: "Under Review"
+    paper_link: "https://arxiv.org/abs/2605.25477"
+    code_link: "https://github.com/pd-perry/expo-ft/"
+    page_link: "https://sites.google.com/view/rlxf-icml2026"
+    abstract: "EXPO-FT finetunes VLA policies with online RL via residual edits and Q-guided sampling, reaching reliable manipulation from minimal real-world experience."
   - title: "TQL: Scaling Q-Functions with Transformers by Preventing Attention Collapse"
     image: "assets/images/tql.png"
+    video: "assets/images/tql_scaling.mp4"
+    video_contain: true
     image_size: 1.0
     tags: [selected, rl]
     authors: "<a href='https://pd-perry.github.io/'>Perry Dong</a>*, <strong>Kuo-Han Hung*</strong>, <a href='https://aswerdlow.com/'>Alexander Swerdlow</a>, <a href='https://dorsa.fyi/'>Dorsa Sadigh</a>, and <a href='https://ai.stanford.edu/~cbfinn/'>Chelsea Finn</a>"
-    conference: "Under Review"
-    venue: "Under Review"
+    conference: "International Conference on Machine Learning (ICML) 2026"
+    venue: "ICML 2026"
     paper_link: "https://arxiv.org/abs/2602.01439"
     code_link: "https://github.com/pd-perry/TQL"
     page_link: "https://pd-perry.github.io/transformer-q-learning/"
     abstract: "TQL identifies attention collapse as why transformer Q-functions fail to scale, and fixes it to unlock value function scaling for offline and online RL."
-  - title: "DexMan: Learning Bimanual Dexterous Manipulation from Human and Generated Videos"
-    image: "assets/images/dexman.png"
-    image_size: 1.0
-    tags: [selected, rl, robotics]
-    authors: "Jhen Hsieh, Kuan-Hsun Tu, <strong>Kuo-Han Hung</strong>, and <a href='https://twke18.github.io/'>Tsung-Wei Ke</a>"
-    conference: "Under Review"
-    venue: "Under Review"
-    paper_link: "https://arxiv.org/abs/2510.08475"
-    code_link: "https://github.com/EmbodiedAI-NTU/DexMan"
-    page_link: "https://embodiedai-ntu.github.io/dexman/index.html"
-    abstract: "DexMan is a real2sim policy training framework that turns human and generated videos into bimanual dexterous manipulation for humanoids — no calibration, teleop, or action labels."
   - title: "Learning Skill Abstraction from Action-Free Videos via Optical Flow"
     image: "assets/images/sof.png"
     image_size: 1.05
@@ -42,19 +45,10 @@ paper_list:
     code_link: ""
     page_link: ""
     abstract: "SOF uses optical flow as a universal action space bridging action-free video and low-level control, unlocking web-scale video for multitask, long-horizon policy learning."
-  - title: "Attention Tracker: Detecting Prompt Injection Attacks in LLMs"
-    image: "assets/images/attention.png"
-    image_size: 0.95
-    tags: [selected]
-    authors: "<strong>Kuo-Han Hung</strong>, <a href='https://ireneko.github.io/'>Ching-Yun Ko</a>, Ambrish Rawat, I-Hsin Chung, <a href='https://winstonhsu.info/'>Winston Hsu</a>, <a href='https://sites.google.com/site/pinyuchenpage/'>Pin-Yu Chen</a>"
-    conference: "Annual Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics (NAACL) 2025"
-    venue: "NAACL 2025"
-    paper_link: "https://arxiv.org/abs/2411.00348"
-    code_link: "https://github.com/khhung-906/Attention-Tracker"
-    page_link: "https://huggingface.co/spaces/TrustSafeAI/Attention-Tracker"
-    abstract: "Attention Tracker exposes an attention-level signature of prompt injection and turns it into a training-free, model-agnostic detector for LLM agents."
   - title: "VICtoR: Learning Hierarchical Vision-Instruction Correlation Rewards for Long-horizon Manipulation"
     image: "assets/images/victor.png"
+    video: "assets/images/victor_execution.mp4"
+    video_contain: true
     image_size: 1.0
     tags: [selected, rl, robotics]
     authors: "<strong>Kuo-Han Hung*</strong>, Pang-Chi Lo*, <a href='https://jiafongyeh.github.io/'>Jia-Fong Yeh</a>*, Han-Yuan Hsu, <a href='https://sites.google.com/site/yitingchen0524/home'>Yi-Ting Chen</a>, <a href='https://winstonhsu.info/'>Winston Hsu</a>"
@@ -64,6 +58,29 @@ paper_list:
     code_link: ""
     page_link: "https://cmlab-victor.github.io/cmlab-vicotor.github.io/"
     abstract: "VICtoR uses foundation models to generate dense hierarchical rewards from vision and instructions, making long-horizon manipulation learnable from scratch with RL."
+  - title: "DexMan: Learning Bimanual Dexterous Manipulation from Human and Generated Videos"
+    image: "assets/images/dexman.png"
+    video: "assets/images/dexman_merged.mp4"
+    image_size: 1.0
+    tags: [selected, robotics]
+    authors: "Jhen Hsieh, Kuan-Hsun Tu, <strong>Kuo-Han Hung</strong>, and <a href='https://twke18.github.io/'>Tsung-Wei Ke</a>"
+    conference: "Under Review"
+    venue: "Under Review"
+    paper_link: "https://arxiv.org/abs/2510.08475"
+    code_link: "https://github.com/EmbodiedAI-NTU/DexMan"
+    page_link: "https://embodiedai-ntu.github.io/dexman/index.html"
+    abstract: "DexMan is a real2sim policy training framework that turns human and generated videos into bimanual dexterous manipulation for humanoids — no calibration, teleop, or action labels."
+  - title: "Attention Tracker: Detecting Prompt Injection Attacks in LLMs"
+    image: "assets/images/attention.png"
+    image_size: 1.0
+    tags: [selected]
+    authors: "<strong>Kuo-Han Hung</strong>, <a href='https://ireneko.github.io/'>Ching-Yun Ko</a>, Ambrish Rawat, I-Hsin Chung, <a href='https://winstonhsu.info/'>Winston Hsu</a>, <a href='https://sites.google.com/site/pinyuchenpage/'>Pin-Yu Chen</a>"
+    conference: "Annual Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics (NAACL) 2025"
+    venue: "NAACL 2025"
+    paper_link: "https://arxiv.org/abs/2411.00348"
+    code_link: "https://github.com/khhung-906/Attention-Tracker"
+    page_link: "https://huggingface.co/spaces/TrustSafeAI/Attention-Tracker"
+    abstract: "Attention Tracker exposes an attention-level signature of prompt injection and turns it into a training-free, model-agnostic detector for LLM agents."
   - title: "AED: Adaptable Error Detection for Few-shot Imitation Policy"
     image: "assets/images/aed.png"
     image_size: 1.0
@@ -91,6 +108,20 @@ paper_list:
   #   code_link: "https://github.com/MiuLab/ConvADR-QA"
   #   abstract: "Open-domain conversational question answering combines passage retrieval and answering, with ConvADR-QA leveraging historical answers to improve both tasks. Our model outperforms baselines on OR-QuAC by reducing noise through a teacher-student framework."
 
+edu_list:
+  - school: "Stanford University"
+    degree: "M.S. in Computer Science"
+    date: "Jun. 2027 (Expected)"
+    gpa: "GPA: 4.0 / 4.0"
+    image: "assets/images/stanford.png"
+    image_size: 1.2
+  - school: "National Taiwan University"
+    degree: "B.S. in Computer Science"
+    date: "Jan. 2025"
+    gpa: "GPA: 4.24 / 4.3 (Top 3%)"
+    image: "assets/images/NTU.png"
+    image_size: 1.0
+
 exp_list:
   - title: "Research Intern, IBM research"
     image: "assets/images/ibm_research.png"
@@ -104,6 +135,12 @@ exp_list:
     date: "Jul. 2023 - Jun. 2024"
     advisor: "Advised by <a href='https://chiqunz.github.io/'>Dr. Chiqun Zhang</a>"
     intro: "Integrated Bing Maps services and context-aware map search system with Microsoft Copilot for complicated map quires; Developed a new path finding algorithm that learns from historical data to achieve over a 10x speedup."
+
+service_list:
+  - role: "Reviewer"
+    venues:
+      - "NeurIPS 2026"
+      - "CoRL 2026"
 
 teaching_list:
   - school: "National Taiwan University"

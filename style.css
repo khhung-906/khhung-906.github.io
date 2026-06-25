@@ -37,7 +37,7 @@ p {
 }
 
 .container {
-  max-width: 860px;
+  max-width: 1160px;
   margin: 0 auto;
   padding: 80px 24px 120px;
 }
@@ -65,12 +65,12 @@ a:hover {
   display: flex;
   align-items: center;
   gap: 32px;
-  margin-bottom: 28px;
+  margin-bottom: 36px;
 }
 
 .avatar {
-  width: 140px;
-  height: 140px;
+  width: 200px;
+  height: 200px;
   border-radius: 20px;
   object-fit: cover;
   display: block;
@@ -96,35 +96,45 @@ a:hover {
   margin: 0;
 }
 
+.tagline-email {
+  color: var(--text-muted);
+  font-size: 14px;
+  margin: 4px 0 0;
+}
+
 .links {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
-  font-size: 14px;
+  gap: 8px;
+  font-size: 13px;
+  margin-top: 24px;
 }
 
 .links a {
   display: inline-flex;
   align-items: center;
-  gap: 7px;
-  padding: 7px 12px;
-  border: 1px solid var(--border);
+  gap: 6px;
+  padding: 6px 13px;
+  border: 1px solid #c8c8c8;
   border-radius: 999px;
   color: var(--text);
   text-decoration: none;
   background: #fff;
-  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+  font-size: 13px;
+  font-weight: 500;
+  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease, box-shadow 0.15s ease;
 }
 
 .links a:hover {
   background: #eff6ff;
   border-color: #bfdbfe;
   color: var(--link-hover);
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
 }
 
 .links .icon {
-  width: 15px;
-  height: 15px;
+  width: 13px;
+  height: 13px;
   flex-shrink: 0;
 }
 
@@ -136,6 +146,14 @@ a:hover {
 
 .about p:last-child {
   margin-bottom: 0;
+}
+
+.about a {
+  text-decoration: none;
+}
+
+.about a:hover {
+  text-decoration: none;
 }
 
 /* Sections */
@@ -227,7 +245,7 @@ a:hover {
 
 .paper {
   display: grid;
-  grid-template-columns: 200px 1fr;
+  grid-template-columns: 320px 1fr;
   gap: 24px;
   align-items: start;
   padding: 16px;
@@ -249,11 +267,19 @@ a:hover {
   border: 1px solid var(--border);
 }
 
-.paper-thumb img {
+.paper-thumb img,
+.paper-thumb video {
   width: 100%;
   height: 100%;
-  object-fit: contain;
   display: block;
+}
+
+.paper-thumb img {
+  object-fit: contain;
+}
+
+.paper-thumb video {
+  object-fit: cover;
 }
 
 .paper-body {
@@ -337,6 +363,19 @@ a:hover {
   color: #4b5563;
 }
 
+.paper-conference {
+  font-size: 14px;
+  font-style: italic;
+  color: var(--text);
+  margin: 0 0 8px;
+  line-height: 1.5;
+}
+
+.paper-conference strong {
+  color: var(--text);
+  font-weight: 700;
+}
+
 .paper-abstract {
   font-size: 14.5px;
   color: var(--text);
@@ -345,12 +384,49 @@ a:hover {
 }
 
 .paper-links {
-  font-size: 14px;
-  color: var(--text-muted);
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
 }
 
-.paper-links a {
+.paper-link-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  padding: 4px 11px;
+  border: 1px solid #d4d4d4;
+  border-radius: 999px;
+  font-size: 12.5px;
+  font-weight: 500;
   color: var(--text);
+  text-decoration: none;
+  background: #fff;
+  white-space: nowrap;
+  transition: background 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+.paper-link-btn:hover {
+  background: #eff6ff;
+  border-color: #bfdbfe;
+  color: var(--link-hover);
+  text-decoration: none;
+}
+
+.paper-link-btn svg {
+  width: 12px;
+  height: 12px;
+  flex-shrink: 0;
+}
+
+.gh-stars {
+  font-size: 11px;
+  opacity: 0.65;
+}
+
+.service-item {
+  font-size: 15px;
+  color: var(--text);
+  margin: 0;
 }
 
 /* Experience / Teaching entries */
@@ -401,6 +477,12 @@ a:hover {
 .entry-meta {
   font-size: 14px;
   color: var(--text-muted);
+  margin: 0 0 4px;
+}
+
+.entry-gpa {
+  font-size: 14px;
+  color: var(--text);
   margin: 0 0 4px;
 }
 
