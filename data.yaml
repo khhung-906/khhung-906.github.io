@@ -27,7 +27,7 @@ paper_list:
     video_contain: true
     image_size: 1.0
     tags: [selected, rl]
-    authors: "<a href='https://pd-perry.github.io/'>Perry Dong</a>*, <strong>Kuo-Han Hung*</strong>, <a href='https://aswerdlow.com/'>Alexander Swerdlow</a>, <a href='https://dorsa.fyi/'>Dorsa Sadigh</a>, and <a href='https://ai.stanford.edu/~cbfinn/'>Chelsea Finn</a>"
+    authors: "Perry Dong*, <strong>Kuo-Han Hung*</strong>, <a href='https://aswerdlow.com/'>Alexander Swerdlow</a>, <a href='https://dorsa.fyi/'>Dorsa Sadigh</a>, and <a href='https://ai.stanford.edu/~cbfinn/'>Chelsea Finn</a>"
     conference: "International Conference on Machine Learning (ICML) 2026"
     venue: "ICML 2026"
     paper_link: "https://arxiv.org/abs/2602.01439"

@@ -37,7 +37,7 @@ p {
 }
 
 .container {
-  max-width: 1160px;
+  max-width: 1140px;
   margin: 0 auto;
   padding: 80px 24px 120px;
 }
@@ -87,6 +87,7 @@ a:hover {
   letter-spacing: -0.03em;
   line-height: 1.05;
   margin: 0 0 10px;
+  color: var(--text);
 }
 
 .tagline {
@@ -150,10 +151,12 @@ a:hover {
 
 .about a {
   text-decoration: none;
+  color: var(--link-hover);
 }
 
 .about a:hover {
   text-decoration: none;
+  color: var(--link-hover);
 }
 
 /* Sections */
@@ -245,7 +248,7 @@ a:hover {
 
 .paper {
   display: grid;
-  grid-template-columns: 320px 1fr;
+  grid-template-columns: 300px 1fr;
   gap: 24px;
   align-items: start;
   padding: 16px;
