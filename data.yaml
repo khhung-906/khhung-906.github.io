@@ -134,13 +134,14 @@ exp_list:
     image_size: 0.8
     date: "Jul. 2023 - Jun. 2024"
     advisor: "Advised by <a href='https://chiqunz.github.io/'>Dr. Chiqun Zhang</a>"
-    intro: "Integrated Bing Maps services and context-aware map search system with Microsoft Copilot for complicated map quires; Developed a new path finding algorithm that learns from historical data to achieve over a 10x speedup."
+    intro: "Integrated Maps Search with Microsoft Copilot with a learning-based algorithm delivering 10× pathfinding efficiency."
 
 service_list:
   - role: "Reviewer"
     venues:
       - "NeurIPS 2026"
       - "CoRL 2026"
+      - "ICLR 2026"
 
 teaching_list:
   - school: "National Taiwan University"
