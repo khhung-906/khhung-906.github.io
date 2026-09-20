@@ -1,4 +1,6 @@
 news_list:
+  - date: "Sep. 2026"
+    news: "Our paper <strong>EXPO-FT</strong> is accepted by <strong>CoRL 2026</strong>!"
   - date: "May. 2025"
     news: "Excited to join <strong>Stanford MSCS</strong> this fall - see you in the Bay Area!"
   - date: "Jan. 2025"
@@ -9,17 +11,29 @@ news_list:
     news: "Our paper <strong>AED</strong> is accepted by <strong>NeurIPS 2024</strong>!"
 
 paper_list:
+  - title: "Real-Time EXPO-FT: Reinforcement Learning for Real-Time Vision-Language-Action Policies"
+    image: "assets/images/rt_expo_ft.png"
+    video: "assets/images/rt_expo_ft_balance.mp4"
+    image_size: 1.0
+    tags: [selected, rl, robotics]
+    authors: "<a href='https://scholar.google.com/citations?user=3Eu7CagAAAAJ&hl=en'>Perry Dong</a>*, <strong>Kuo-Han Hung*</strong>, <a href='https://dorsa.fyi/'>Dorsa Sadigh</a>, and <a href='https://ai.stanford.edu/~cbfinn/'>Chelsea Finn</a>"
+    conference: "Under Review"
+    venue: "Under Review"
+    paper_link: "https://arxiv.org/abs/2609.18207"
+    code_link: "https://github.com/pd-perry/expo-ft"
+    page_link: "https://pd-perry.github.io/real-time-expo-ft/"
+    abstract: "Real-Time EXPO-FT finetunes real-time VLA policies with RL, decoupling slow base-policy proposals from fast reactive edits to stay maximally reactive under inference latency."
   - title: "EXPO-FT: Sample-Efficient Reinforcement Learning Finetuning for Vision-Language-Action Models"
     image: "assets/images/expo_ft.png"
     video: "https://pd-perry.github.io/expo-ft/videos/rollouts/light.mp4"
     image_size: 1.0
     tags: [selected, rl, robotics]
-    authors: "Perry Dong*, <strong>Kuo-Han Hung*</strong>, Tian Gao, <a href='https://dorsa.fyi/'>Dorsa Sadigh</a>, and <a href='https://ai.stanford.edu/~cbfinn/'>Chelsea Finn</a>"
-    conference: "Under Review"
-    venue: "Under Review"
+    authors: "<a href='https://scholar.google.com/citations?user=3Eu7CagAAAAJ&hl=en'>Perry Dong</a>*, <strong>Kuo-Han Hung*</strong>, <a href='https://skybhh19.github.io/'>Tian Gao</a>, <a href='https://dorsa.fyi/'>Dorsa Sadigh</a>, and <a href='https://ai.stanford.edu/~cbfinn/'>Chelsea Finn</a>"
+    conference: "Conference on Robot Learning (CoRL) 2026"
+    venue: "CoRL 2026"
     paper_link: "https://arxiv.org/abs/2605.25477"
     code_link: "https://github.com/pd-perry/expo-ft/"
-    page_link: "https://sites.google.com/view/rlxf-icml2026"
+    page_link: "https://pd-perry.github.io/expo-ft/"
     abstract: "EXPO-FT finetunes VLA policies with online RL via residual edits and Q-guided sampling, reaching reliable manipulation from minimal real-world experience."
   - title: "TQL: Scaling Q-Functions with Transformers by Preventing Attention Collapse"
     image: "assets/images/tql.png"
@@ -27,7 +41,7 @@ paper_list:
     video_contain: true
     image_size: 1.0
     tags: [selected, rl]
-    authors: "Perry Dong*, <strong>Kuo-Han Hung*</strong>, <a href='https://aswerdlow.com/'>Alexander Swerdlow</a>, <a href='https://dorsa.fyi/'>Dorsa Sadigh</a>, and <a href='https://ai.stanford.edu/~cbfinn/'>Chelsea Finn</a>"
+    authors: "<a href='https://scholar.google.com/citations?user=3Eu7CagAAAAJ&hl=en'>Perry Dong</a>*, <strong>Kuo-Han Hung*</strong>, <a href='https://aswerdlow.com/'>Alexander Swerdlow</a>, <a href='https://dorsa.fyi/'>Dorsa Sadigh</a>, and <a href='https://ai.stanford.edu/~cbfinn/'>Chelsea Finn</a>"
     conference: "International Conference on Machine Learning (ICML) 2026"
     venue: "ICML 2026"
     paper_link: "https://arxiv.org/abs/2602.01439"
@@ -73,7 +87,7 @@ paper_list:
   - title: "Attention Tracker: Detecting Prompt Injection Attacks in LLMs"
     image: "assets/images/attention.png"
     image_size: 1.0
-    tags: [selected]
+    tags: [selected, others]
     authors: "<strong>Kuo-Han Hung</strong>, <a href='https://ireneko.github.io/'>Ching-Yun Ko</a>, Ambrish Rawat, I-Hsin Chung, <a href='https://winstonhsu.info/'>Winston Hsu</a>, <a href='https://sites.google.com/site/pinyuchenpage/'>Pin-Yu Chen</a>"
     conference: "Annual Conference of the Nations of the Americas Chapter of the Association for Computational Linguistics (NAACL) 2025"
     venue: "NAACL 2025"
@@ -121,6 +135,10 @@ edu_list:
     gpa: "GPA: 4.24 / 4.3 (Top 3%)"
     image: "assets/images/NTU.png"
     image_size: 1.0
+    awards:
+      - "Bachelor Thesis Dean's Award"
+      - "Dean's List (3 times)"
+      - "Presidential Award (2 times)"
 
 exp_list:
   - title: "Research Intern, IBM research"
@@ -139,6 +157,7 @@ exp_list:
 service_list:
   - role: "Reviewer"
     venues:
+      - "ICLR 2027"
       - "NeurIPS 2026"
       - "CoRL 2026"
       - "ICLR 2026"
