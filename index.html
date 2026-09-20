@@ -26,9 +26,9 @@
   <script>
     (function () {
       try {
+        // Default to light mode; only use dark if the visitor explicitly chose it.
         var saved = localStorage.getItem('theme');
-        var prefersDark = window.matchMedia && window.matchMedia('(prefers-color-scheme: dark)').matches;
-        if (saved === 'dark' || (!saved && prefersDark)) {
+        if (saved === 'dark') {
           document.documentElement.setAttribute('data-theme', 'dark');
         }
       } catch (e) {}
