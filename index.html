@@ -198,7 +198,8 @@
           div.dataset.tags = (paper.tags || []).join(',');
           const thumbScale = paper.image_size || 1;
           const thumbStyle = thumbScale !== 1 ? ` style="transform:scale(${thumbScale})"` : '';
-          const videoStyle = (paper.video_contain ? 'object-fit:contain;' : '') + (thumbScale !== 1 ? `transform:scale(${thumbScale});` : '');
+          const videoBrightness = paper.video_brightness;
+          const videoStyle = (paper.video_contain ? 'object-fit:contain;' : '') + (thumbScale !== 1 ? `transform:scale(${thumbScale});` : '') + (videoBrightness && videoBrightness !== 1 ? `filter:brightness(${videoBrightness});` : '');
           const thumbHtml = paper.video
             ? `<video src="${paper.video}" autoplay muted loop playsinline${videoStyle ? ` style="${videoStyle}"` : ''}></video>`
             : `<img src="${paper.image}" alt="${paper.title} illustration" loading="lazy"${thumbStyle}>`;

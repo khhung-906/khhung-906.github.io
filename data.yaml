@@ -11,9 +11,10 @@ news_list:
     news: "Our paper <strong>AED</strong> is accepted by <strong>NeurIPS 2024</strong>!"
 
 paper_list:
-  - title: "Real-Time EXPO-FT: Reinforcement Learning for Real-Time Vision-Language-Action Policies"
+  - title: "Reinforcement Learning for Real-Time Vision-Language-Action Policies"
     image: "assets/images/rt_expo_ft.png"
     video: "assets/images/rt_expo_ft_balance.mp4"
+    video_brightness: 0.6
     image_size: 1.0
     tags: [selected, rl, robotics]
     authors: "<a href='https://scholar.google.com/citations?user=3Eu7CagAAAAJ&hl=en'>Perry Dong</a>*, <strong>Kuo-Han Hung*</strong>, <a href='https://dorsa.fyi/'>Dorsa Sadigh</a>, and <a href='https://ai.stanford.edu/~cbfinn/'>Chelsea Finn</a>"
@@ -26,6 +27,7 @@ paper_list:
   - title: "EXPO-FT: Sample-Efficient Reinforcement Learning Finetuning for Vision-Language-Action Models"
     image: "assets/images/expo_ft.png"
     video: "https://pd-perry.github.io/expo-ft/videos/rollouts/light.mp4"
+    video_brightness: 1.2
     image_size: 1.0
     tags: [selected, rl, robotics]
     authors: "<a href='https://scholar.google.com/citations?user=3Eu7CagAAAAJ&hl=en'>Perry Dong</a>*, <strong>Kuo-Han Hung*</strong>, <a href='https://skybhh19.github.io/'>Tian Gao</a>, <a href='https://dorsa.fyi/'>Dorsa Sadigh</a>, and <a href='https://ai.stanford.edu/~cbfinn/'>Chelsea Finn</a>"
