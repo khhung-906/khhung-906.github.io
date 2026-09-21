@@ -14,7 +14,7 @@ paper_list:
   - title: "Reinforcement Learning for Real-Time Vision-Language-Action Policies"
     image: "assets/images/rt_expo_ft.png"
     video: "assets/images/rt_expo_ft_balance.mp4"
-    video_brightness: 0.6
+    video_brightness: 0.75
     image_size: 1.0
     tags: [selected, rl, robotics]
     authors: "<a href='https://scholar.google.com/citations?user=3Eu7CagAAAAJ&hl=en'>Perry Dong</a>*, <strong>Kuo-Han Hung*</strong>, <a href='https://dorsa.fyi/'>Dorsa Sadigh</a>, and <a href='https://ai.stanford.edu/~cbfinn/'>Chelsea Finn</a>"
