@@ -103,8 +103,8 @@ paper_list:
     abstract: "Attention Tracker exposes an attention-level signature of prompt injection and turns it into a training-free, model-agnostic detector for LLM agents."
   - title: "AED: Adaptable Error Detection for Few-shot Imitation Policy"
     image: "assets/images/aed.png"
-    video: "assets/images/aed_animation.mp4"
-    video_contain: true
+    # video: "assets/images/aed_animation.mp4"
+    # video_contain: true
     image_size: 1.0
     tags: [robotics]
     authors: "<a href='https://jiafongyeh.github.io/'>Jia-Fong Yeh</a>, <strong>Kuo-Han Hung*</strong>, Pang-Chi Lo*, Chi-Ming Chung, <a href='https://tsunghan-wu.github.io/'>Tsung-Han Wu</a>, Hung-Ting Su, <a href='https://sites.google.com/site/yitingchen0524/home'>Yi-Ting Chen</a>, <a href='https://winstonhsu.info/'>Winston Hsu</a>"
