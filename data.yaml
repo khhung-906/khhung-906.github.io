@@ -65,7 +65,7 @@ paper_list:
     abstract: "VICtoR uses foundation models to generate dense hierarchical rewards from vision and instructions, making long-horizon manipulation learnable from scratch with RL."
   - title: "Learning Skill Abstraction from Action-Free Videos via Optical Flow"
     image: "assets/images/sof.png"
-    video: "assets/images/sof_animation.mp4"
+    video: "assets/images/sof_animation_lr.mp4"
     video_contain: true
     image_size: 1.0
     tags: [robotics]
